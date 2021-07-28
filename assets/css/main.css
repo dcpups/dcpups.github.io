@@ -1,6 +1,15 @@
 html, body {
   height: 100%; }
 
+table {
+  width: 50%;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+}
+
 body {
   display: grid;
   grid-template: auto auto auto/1fr auto;
